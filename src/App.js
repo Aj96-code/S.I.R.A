@@ -1,7 +1,7 @@
-import './App.css';
+import SignUpForm from "./signup.js";
+import Button from "./component/button.js";
 
-function App() {
- 
-}
 
-export default App;
+export default () => {
+    return(<Button value="Sign Up"/>)
+} ;

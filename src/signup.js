@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css'; // Import your CSS file
 
 function SignUpForm() {
     return (
