@@ -1,7 +1,12 @@
-import SignUpForm from "./signup.js";
 import Button from "./component/button.js";
+import Navbar from "./component/navbar.js";
 
 
 export default () => {
-    return(<Button value="Sign Up"/>)
+    return(
+        <div>
+            <Navbar/>
+            <Button value="Sign in" />
+         </div>
+    )
 } ;

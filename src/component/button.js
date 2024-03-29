@@ -1,8 +1,8 @@
 import React from "react";
 
 
-export default ({value}) => {
+export default ({className = "btn" ,value = "Add Value to component", type="submit"}) => {
     return (
-        <button className="btn btn-red">{value}</button>
+        <button className={className} type={type}>{value}</button>
     )
 };
