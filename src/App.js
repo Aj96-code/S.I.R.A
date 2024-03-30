@@ -1,12 +1,9 @@
-import Button from "./component/button.js";
-import Navbar from "./component/navbar.js";
-
+import Button from "./component/Button.js";
 
 export default () => {
-    return(
-        <div>
-            <Navbar/>
-            <Button value="Sign in" />
-         </div>
-    )
-} ;
+  return (
+    <>
+      <Button children={<a href="#navbar">Something</a>} />
+    </>
+  );
+};
